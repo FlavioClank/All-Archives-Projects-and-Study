@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+}
+body {
+        height: 200vh;
+        width: 196vh;
+}
+
+.caixaPreta{
+
+    background-color: rgb(156, 32, 32);
+    width: 100%;
+    height: 100%;
+
+}

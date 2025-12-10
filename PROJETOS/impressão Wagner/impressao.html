@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Teste pagina 2</title>
+</head>
+
+<body>
+    <div>
+        <h2>Pagina de Impressão de dados</h2>
+    </div>
+    <div>
+        <p id="nomeSalvo" style="color:red;"></p>
+    </div>
+</br>
+	<input type="button" id="botaoVoltar" onClick="voltarParaIndex()" value="<- Index" style="color:green;"> 
+    <script>
+	    
+	    window.onload = function() {
+            var valorSalvo= document.getElementById("nomeSalvo");
+            valorSalvo.textContent =  localStorage.getItem('valueText');
+
+        };
+
+	function voltarParaIndex() {
+        localStorage.clear();
+	    window.location.href = "index.html";
+	};
+    </script>
+</body>
+
+</html>

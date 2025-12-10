@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+}
+
+.minhadivkeyframes {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    animation: animacaoquadradovirarredondo;
+    animation-duration: 3s;
+}
+
+@keyframes animacaoquadradovirarredondo {
+    from {
+        border-radius: 0;
+    }
+    to {
+        border-radius: 50%;
+    }
+}
+
+/* 
+
+* {
+    margin: 0;
+}
+
+.minhadivkeyframes {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    animation: animacaoquadradovirarredondo;
+    animation-duration: 3s;
+    position: absolute;
+}
+
+@keyframes animacaoquadradovirarredondo {
+    0% {
+        top: 0;
+    }
+    10%{
+        top: 20px;
+    }
+    20% {
+        top: 40px;
+    }
+    40%{
+        top: 40px;
+        left: 20px;
+    }
+    50% {
+        top: 60px;
+        left: 120px;
+    }
+}
+           O EXEMPLO DE BAIXO É PARA FAZER A CAIXA OU OBJETO SE MOVIMENTAR PELA TELA (PORCENTAGEM)
+
+            O EXEMPLO DE CIMA É DE COMO CRIAR UM (KEYFRAME) NO CASO CRIAR UMA ANIMAÇÃO PARA A DIV OU OBJETO
+
+
+
+
+
+
+
+*/

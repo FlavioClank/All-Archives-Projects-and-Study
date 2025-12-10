@@ -1,0 +1,19 @@
+.fonte40{ 
+    font-size: 40px;
+}
+
+.corVermelha {
+    color: red;
+}
+.fonte10{ 
+    font-size: 10px;
+}
+.backGroundVerde{
+    background-color: green;
+}
+
+.corAzulFonte50BackAmarelo{
+    color: blue;
+    font-size: 50px;
+    background-color: yellow;
+}

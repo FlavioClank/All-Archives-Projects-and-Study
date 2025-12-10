@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+}
+.minhadiv {
+    width: 500px;
+    height: 500px;
+    background-color: green;
+}
+.minhadiv2 {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+.PositionAbsolute {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;  /* Ou Position Static, A diferença é que Absolute não respeita as ordens dos elementos e Sim o Topo Da página */
+    top: 10%
+}

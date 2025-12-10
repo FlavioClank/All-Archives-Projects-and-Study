@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Teste Session - Page 1</title>
+</head>
+
+<body>
+    <div>
+        <h2>Page 1</h2>
+    </div>
+    <div>
+        <input type="text" value="" id="idNome">
+    </br>
+        <button type="button" id="botaoDados" onClick="lulaELadrao()" > definirDados
+</button>
+
+<button type="button" id="botaoProximo" onClick="irParaProx()" > Impressao
+</button>
+
+    </div>
+    <script>
+        
+
+        function lulaELadrao() {
+            var nome = document.getElementById("idNome").value;
+            localStorage.setItem('valueText', nome);
+	    console.log('nome');
+	//    window.location.href = "impressao.html";
+        };
+
+        function irParaProx() {
+            window.location.href = "impressao.html";
+        };
+    </script>
+</body>
+
+</html>

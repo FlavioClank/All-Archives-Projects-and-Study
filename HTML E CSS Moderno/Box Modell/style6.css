@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+}
+body {
+        height: 200vh;
+        width: 196vh;
+}
+
+
+.minhaDivFundo {
+
+    width: 100%;
+    height: 100%;
+    background-color: #450769;
+    margin: 10px;
+    padding: 10px;   
+     
+}
+
+
+.minhaDivFilho1 {
+
+    border-radius: 50px;
+    height: 50px;
+    width: 1000px;
+    background-color: green;
+    margin-left: 20%;
+    position: fixed;
+}
+
+
+.minhaDivFilho2 {
+
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin-left: 10px;
+    margin-top: 100px;
+
+}
+
+
+.minhaDivAzul {
+    width: 35%;
+    height: 5%;
+    float: right;
+    margin-right: 10%;
+    
+    background-color: #0004ffd7;
+      
+} 
+
+
+.minhaDivVerde {
+    width: 100px;
+    height: 100px;
+    
+    background-color: #0dbe48d7;
+    margin-left: 10px;
+    margin-top: 10%;    
+} 
+
+
+.minhaDivRosa {
+    width: 100px;
+    height: 100px;
+   
+    background-color: #c200a1d7;
+    margin-left: 10px;
+    margin-top: 10px;    
+} 
+
+
+.minhaDivVermelha {
+    width: 100px;
+    height: 100px;
+    background-color: #c70101d7;
+    margin-left: 10px;
+    margin-top: 10px;
+} 
+
+
+.divAmarelaClass {
+    width: 20%;
+    height: 5%;
+    background-color: #ecea53d7;
+    float: left;
+}
+
+#buttonComprar   {
+    background: color #0ac90a;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    padding-top: 80%;
+    
+}
+
+#buttonVender    {
+    background: color #e40505;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    padding-top: 50%;
+    
+}
+
+.button1 {
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    border: color(srgb red green blue) #0ac90a;
+    border-radius:10%;
+text-align: center;
+}
+/* LEMBRANDO QUE MARGIN SE DISTANCIA COM RELAÇÃO AOS ELEMENTOS QUE ESTÃO FORA DELE
+
+/* E O PADDING É O DISTANCIAMENTO COM RELAÇÃO AOS ELEMENTOS QUE ESTEJA DENTRO DELE

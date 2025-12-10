@@ -1,0 +1,41 @@
+Lógica de Programação?
+    conjunto de tecnicas e conhecimentos.
+    colocar instruções em uma sequência lógica para chegar em um determinado resultado.
+    javascript.
+
+algoritmo?
+    sequência lógica
+
+    - email, senha
+    - clicar no botão de entrar
+    - mude o status para logar
+    - exibir mensagem de bem vindo
+
+hardware e software.
+
+
+Linguagem de máquina: compreendida pelo computador
+binário(bits) 0 e 1.
+
+Linguagens de baixo nível.
+    Assembly.
+
+Linguagens de alto nível.
+    Linguagens compreendidas com mais facilidades pelos seres humanos.
+        EX: javascript, python, c++, php ...
+
+
+-> nossa maquina não entende linguagem de alto nível.
+-> precisamos converter nosso código fonte de uma maneira que a máquina entenda.
+-> compilação e a interpretação
+
+
+compilado -> compila em um ou mais arquivos que a máquina entende -> esse arquivo compilado -> são executados.
+compilador.
+
+C.
+
+interpretação -> tradução(interpretação) -> execução.
+interpretador.
+
+JavaScript.
